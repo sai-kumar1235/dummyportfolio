@@ -37,7 +37,7 @@ window.onscroll = function() {
 
 const body1=document.querySelector('body');
 const themeSwitch=document.querySelector('#themeSwitcher')
-themeSwitch.addEventListener('click',()=>{
+themeSwitch.addEventListener('click',(body)=>{
   if(body1.classList.contains('dark')){
     body1.classList.remove('dark');
   }else{
